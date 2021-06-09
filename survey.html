@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<title>Survey</title>
+</head>
+<body>
+	<h1>Survey</h1>
+	<div class='form'>
+		<form method="post" enctype="text/plain" action="file.txt">
+			<label>Have you or any of your relative worked with us in the past directly or indirectly?</label><br>
+			<input type="radio" name="Past Employee" value="Yes" required>Yes
+			<input type="radio" name="Past Employee" value="No">No<br><br>
+			<label>Are you legally authorized to work in the country you have applied for?</label><br>
+			<input type="radio" name="Legal To Work" value="Yes" required>Yes
+			<input type="radio" name="Legal To Work" value="No">No<br><br>
+			<label>Will you need sponsership for visa now or in the future?</label><br>
+			<input type="radio" name="Visa" value="Yes" required>Yes
+			<input type="radio" name="Visa" value="No">No<br><br>
+			<label>Are you related to someone who has the authority to make decisions at our company either directly or indirectly?</label><br>
+			<input type="radio" name="Related To higher authority" value="Yes" required>Yes
+			<input type="radio" name="Related To higher authority"value="No">No<br><br>
+			<label>Are you a veteran</label><br>
+			<input type="radio" name="Visa" value="Yes" required>Yes
+			<input type="radio" name="Visa" value="No">No<br><br>
+			<label>Are you willing to relocate?</label><br>
+			<input type="radio" name="Relocate" value="Yes"required>Yes
+			<input type="radio" name="Relocate" value="No">No
+			<input type="radio" name="Relocate" value="Maybe">Maybe<br><br>
+			<label for="degree">What best describes you? </label>
+	        <input list="designation" name="Designation" required>
+				<datalist id="designation">
+				  <option value="Student">
+				  <option value="Fresher">
+				  <option value="Employed">
+				  <option value="Unemployed">
+				  <option value="Freelancer">
+				</datalist><br><br>
+			<label>Current CTC</label required>
+			<input type="text" name="CTC"><br><br>
+			<label>Expected CTC</label>
+			<input type="text" name="CTC" required><br><br>
+			<label>How many hours can you work weekly?</label>
+			<input type="text" name="hours/week" required><br><br>
+			 <input type="checkbox" name="T&C" required>
+        	<label>*I confirm that all the information provided is true and any discrepancy will lead to legal actions.</label><br><br></td>
+			<input type="submit" name="" class="btn">
+
+		</form>
+	</div>
+
+</body>
+</html>
