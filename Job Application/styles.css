@@ -1,0 +1,55 @@
+html{
+	margin: 20px;
+	padding: 20px;	
+}
+
+body{
+	font-family:'Source Sans Pro', sans-serif;
+	background-color: #ccffff;
+	border-width: 2px;
+	border-style: dashed;
+	border-color: black midnightblue;
+	padding: 30px;
+	padding-top: 0;
+	border-radius: 20px;
+}
+
+h1{
+	text-align: center;
+	color: midnightblue;
+}
+
+form{
+	align-items: center;
+	align-content: center;
+}
+
+label{
+	font-weight: bold;
+	color: midnightblue;
+}
+
+input,datalist,select {
+  border-radius:5px;
+  margin-left: 10px;
+  padding:2px;
+  border-width: 2px;
+  border-color: grey;
+}
+
+input[type='checkbox']{
+	margin-left: 0px;
+}
+
+input[type='file']{
+	border-radius: 8px;
+}
+
+.btn{
+	border-radius: 5px;
+	padding: 5px 8px;
+	color: midnightblue;
+	margin-left: 0px;
+	font-size: 14px;
+}
+
