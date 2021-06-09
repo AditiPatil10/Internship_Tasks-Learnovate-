@@ -280,19 +280,20 @@
 		<input type="radio" id="other" name="gender" value="other">
 		<label for="other">Other</label><br><br>
      <label for="degree">Highest Qualification: </label>
-     <input list="degrees" name="Degree" id="degree" required>
-		<datalist id="degrees">
-		  <option value="B.Tech">
-		  <option value="BE">
-		  <option value="B.Sc">
-		  <option value="B.Com">
-		  <option value="Diploma">
-		</datalist><br><br>
+     <select id="degree" name="Degree" required>
+        <option selected>Select Degree</option>
+		  <option value="B.Tech">B.Tech</option>
+		  <option value="B.E.">B.E.</option>
+		  <option value="B.Sc">B.Sc.</option>
+		  <option value="B.Com">B.Com</option>
+		  <option value="Diploma">Diploma</option>
+		</select>
+		<br><br>
 		<label>Major:</label>
         <input type="text" name="Major" value="" required><br><br>
         <label>Year of Graduation: </label>
         <input type="text" name="passing-year" value="" required><br><br>
-        <label>Resume:</label>
+        <label class="file">Resume:</label>
         <input type="file" name="Resume" required><br><br>
         <input type="checkbox" name="T&C" required>
         <label>I agree with all the terms and conditions</label></td>
